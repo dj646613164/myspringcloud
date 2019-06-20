@@ -1,0 +1,6 @@
+### 网关配置
+zuul:
+  routes:
+    hiapi:
+      path: /order/**
+      serviceId: app-dj-order
