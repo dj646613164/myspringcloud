@@ -1,6 +1,9 @@
 ### 网关配置
 zuul:
   routes:
-    hiapi:
+    app-dj-order:
       path: /order/**
       serviceId: app-dj-order
+    app-dj-user:
+          path: /user/**
+          serviceId: app-dj-user      
