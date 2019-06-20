@@ -5,6 +5,6 @@ zuul:
       path: /order/**
       serviceId: app-dj-order
     app-dj-user:
-          path: /users/**
+          path: /user/**
           serviceId: app-dj-user      
 foo: version_4
