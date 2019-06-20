@@ -7,4 +7,4 @@ zuul:
     app-dj-user:
           path: /users/**
           serviceId: app-dj-user      
-foo: version_2
+foo: version_3
